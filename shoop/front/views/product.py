@@ -10,7 +10,7 @@ from django.utils.translation import ugettext as _
 from django.utils.translation import get_language
 from django.views.generic import DetailView
 
-from shoop.core.models import Product, ProductMode, ProductMedia
+from shoop.core.models import Product, ProductMode
 from shoop.front.utils.views import cache_product_things
 from shoop.utils.excs import extract_messages, Problem
 from shoop.utils.numbers import get_string_sort_order
